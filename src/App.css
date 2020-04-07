@@ -2,37 +2,49 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Carrusel {
+  border-style: solid;
+  height: 350px;
+  text-align: center;
+  width: 500px;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Imagen{
+  border-radius: 8px;  
+  width: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Circulo{
+  text-align: center;
+  border-style: solid;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.Form{
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  margin: auto;
+  width: 300px;
+  height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.FormGit{
+  text-align: center;
+  border-style: groove;
+  border-color: red;
+  border-radius: 20px;
+  margin: auto;
+  width: 300px;
+  height: 200px;
 }
+
+
+.GitImagen{
+  border-radius: 10px; 
+  width: 100px;
+};
