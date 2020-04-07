@@ -28,7 +28,7 @@ class Carrusel extends Component{
         const {titulo, children} = this.props;
     return(
        <div className={this.props.styleName}>
-            <div>{titulo}</div>
+            <div className="Titulo">{titulo}</div>
             <div>{children[this.state.selectedChildren]}</div>
             <button onClick={this.handleClickAnterior}>Anterior</button>
             <button onClick={this.handleClickSiguiente}>Siguiente</button>
